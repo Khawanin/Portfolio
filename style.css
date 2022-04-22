@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-image: url(./Images/background.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  width: 462px;
+  height: 587, 15px;
+}
+
+.page-flex {
+  display: flex;
+  flex-direction: column;
+  width: 375px; 
+  height: 604px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#github-account {
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #6070FF;
+  width: 76px;
+  line-height: 20px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+#nav-icon {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 16px;
+}
+
+.header {
+  width: 327px;
+  line-height: 150px;
+  margin-top: 80px;
+  margin-left: 24px;
+  margin-bottom: 0;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700, bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+}
+
+.introduction {
+  width: 327px;
+  height: 150px;
+  margin-top: 10;
+  margin-left: 24px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.contact {
+  justify-content: space-between;
+  font-style: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  margin-left: 24px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
