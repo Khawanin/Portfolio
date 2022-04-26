@@ -28,7 +28,6 @@ a {
   text-align: center;
   color: #6070ff;
   margin-top: 10px;
-  margin-left: 12px;
   height: 20px;
 }
 
@@ -248,8 +247,8 @@ ul li {
   font-family: 'poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 70px;
-  width: 327px;
+  line-height: 50px;
+  width: 100px;
   color: #172b4d;
 }
 
@@ -301,7 +300,7 @@ ul li {
   align-items: center;
 }
 
-.lang {
+.lang3 {
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -316,6 +315,9 @@ ul li {
 
 .web-langs {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
