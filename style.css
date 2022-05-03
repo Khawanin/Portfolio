@@ -376,6 +376,7 @@ img {
   border-radius: 8px;
   margin: 0 0 20px;
   padding: 0 0 0 16px;
+  border: none;
 }
 
 .message {
@@ -384,6 +385,7 @@ img {
   height: 170px;
   border-radius: 8px;
   padding: 10px 0 0 16px;
+  border: none;
 }
 
 .submit {
@@ -393,12 +395,14 @@ img {
   border-radius: 8px;
   color: #6070ff;
   float: left;
-  margin-left: 20px;
+  margin-top: 22px;
+  margin-left: 25px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  border: none;
 }
 
 .contact-form {
