@@ -406,8 +406,8 @@ img {
 }
 
 .submit:hover {
-  background: #6070FF;
-  box-shadow: 0px 8px 16px 0px #4053FC3D;
+  background: #6070ff;
+  box-shadow: 0 8px 16px 0 #4053fc3d;
   color: #fff;
 }
 
