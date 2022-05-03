@@ -331,3 +331,40 @@ img {
   align-items: center;
   margin-bottom: 15px;
 }
+
+.form-background {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-image: url(/Images/contact-me.png);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 779px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form-heading {
+  display: flex;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.form-content {
+  width: 327px;
+  height: 102px;
+  margin-left: 24px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 50px;
+}
