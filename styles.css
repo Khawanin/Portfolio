@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 375px;
+  font-family: 'poppins', sans-serif;
+}
+
+.background-img {
+  background-image: url(./Images/header-bg.png);
+  background-repeat: no-repeat;
+  height: 680px;
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-link {
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  padding: 10px 0 0 10px;
+}
+
+.union-icon {
+  width: 18px;
+  height: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 40px;
+  max-width: 327px;
+  height: 150px;
+  line-height: 52px;
+  color: #172B4D;
+  margin: 80px 0 0 24px;
+}
+
+.self-intro {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  max-width: 327px;
+  margin: 18px 0 0 24px;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #7F8CFF;
+  margin: 12px 0 12px 24px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-left: 24px;
+}
