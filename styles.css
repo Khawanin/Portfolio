@@ -5,7 +5,6 @@
 }
 
 body {
-  width: 100%;
   max-width: 375px;
   font-family: 'poppins', sans-serif;
 }
@@ -35,24 +34,23 @@ ul {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
-  padding: 10px 0 0 10px;
+  margin: 10px 0 0 12px;
 }
 
 .union-icon {
   width: 18px;
   height: 12px;
-  margin-right: 10px;
+  margin: 6px 35px 0 3px;
   cursor: pointer;
 }
 
 .heading {
   font-weight: 700;
   font-size: 40px;
-  max-width: 327px;
   height: 150px;
   line-height: 52px;
   color: #172b4d;
-  margin: 80px 0 0 24px;
+  margin: 80px 24px 0 24px;
 }
 
 .self-intro {
@@ -60,8 +58,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  max-width: 327px;
-  margin: 18px 0 0 24px;
+  margin: 18px 24px 0 24px;
 }
 
 .connect {
