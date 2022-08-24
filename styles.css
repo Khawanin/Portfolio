@@ -323,6 +323,7 @@ ul {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 .form-heading {
   display: flex;
   align-items: center;
@@ -333,6 +334,7 @@ ul {
   color: #fff;
   margin: 103px 0 12px;
 }
+
 .form-content {
   width: 327px;
   height: 102px;
@@ -342,9 +344,10 @@ ul {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-bottom: 87px;
 }
+
 .name,
 .email {
   background-color: #fff;
@@ -355,6 +358,7 @@ ul {
   padding: 0 0 0 16px;
   border: none;
 }
+
 .message {
   background-color: #fff;
   width: 311px;
@@ -363,15 +367,16 @@ ul {
   padding: 10px 0 0 16px;
   border: none;
 }
+
 .submit {
   width: 140px;
   height: 48px;
   background-color: #fff;
   border-radius: 8px;
-  color: #6070FF;
+  color: #6070ff;
   float: left;
   margin-top: 22px;
-  margin-left: 25px;
+  margin-left: 32px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
@@ -379,17 +384,21 @@ ul {
   cursor: pointer;
   border: none;
 }
+
 .contact-form {
   text-align: center;
 }
+
 .submit:hover {
-  background: #6070FF;
+  background: #6070ff;
   box-shadow: 0 8px 16px 0 #4053fc3d;
   color: #fff;
 }
+
 .submit:active {
-  background: #2230D2;
+  background: #2230d2;
 }
+
 .submit:disabled {
-  color: #5E6C84;
+  color: #5e6c84;
 }
