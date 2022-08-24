@@ -311,3 +311,85 @@ ul {
   align-items: center;
   margin-bottom: 15px;
 }
+
+.form-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./Images/contact-me.png);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 779px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.form-heading {
+  display: flex;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 103px 0 12px;
+}
+.form-content {
+  width: 327px;
+  height: 102px;
+  margin-left: 24px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin-bottom: 87px;
+}
+.name,
+.email {
+  background-color: #fff;
+  width: 311px;
+  height: 48px;
+  border-radius: 8px;
+  margin: 0 0 20px;
+  padding: 0 0 0 16px;
+  border: none;
+}
+.message {
+  background-color: #fff;
+  width: 311px;
+  height: 170px;
+  border-radius: 8px;
+  padding: 10px 0 0 16px;
+  border: none;
+}
+.submit {
+  width: 140px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #6070FF;
+  float: left;
+  margin-top: 22px;
+  margin-left: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  border: none;
+}
+.contact-form {
+  text-align: center;
+}
+.submit:hover {
+  background: #6070FF;
+  box-shadow: 0 8px 16px 0 #4053fc3d;
+  color: #fff;
+}
+.submit:active {
+  background: #2230D2;
+}
+.submit:disabled {
+  color: #5E6C84;
+}
