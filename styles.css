@@ -5,14 +5,19 @@
 }
 
 body {
-  max-width: 375px;
   font-family: 'poppins', sans-serif;
 }
 
 .background-img {
   background-image: url(./Images/header-bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
   height: 600px;
+}
+
+.desk-nav {
+  display: none;
 }
 
 .header-flex {
@@ -398,4 +403,152 @@ ul {
 
 .submit:disabled {
   color: #5e6c84;
+}
+
+
+
+@media only screen and (min-width: 780px) {
+  body {
+    background: #E5E5E5;
+  }
+
+  .header-flex {
+    display: none;
+  }
+
+  .desk-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .my-logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #6070ff;
+    margin: 25px 0 0 155px;
+  }
+
+  .nav-list {
+    gap: 32px;
+    margin: 25px 145px 0 0;
+  }
+
+  li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    margin-top: 359px 260px 0 260px;
+  }
+
+  .self-intro {
+    display: flex;
+    width: 80%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-top: 12px 260px 0 260px;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 496px;
+    margin: 90px;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    background: white;
+  }
+
+
+  .background-img {
+    background-image: url(./Images/header-bg-lg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .background-img {
+    background-color: white;
+  }
+
+  .head-img2 {
+    width: 40%;
+  }
+
+  .head {
+    width: 40%;
+  }
+
+  .head-img {
+    margin: 24px;
+  }
+
+  .list-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .grid-container2 {
+    display: flex;
+    background-image: url(./Images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .head {
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+
+  .languages {
+    margin-top: 12px;
+  }
+
+  .form-background {
+    display: flex;
+    justify-content: center;
+    background-image: url(./Images/form-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #6070FF;
+    width: 100%;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  .desk-nav {
+    display: none;
+  }
 }
