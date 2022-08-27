@@ -405,11 +405,9 @@ ul {
   color: #5e6c84;
 }
 
-
-
 @media only screen and (min-width: 780px) {
   body {
-    background: #E5E5E5;
+    background: #e5e5e5;
   }
 
   .header-flex {
@@ -425,6 +423,7 @@ ul {
     display: flex;
     gap: 20px;
     padding: 10px;
+    margin: 25px 154px 0 0;
   }
 
   .my-logo {
@@ -432,11 +431,6 @@ ul {
     font-weight: 700;
     color: #6070ff;
     margin: 25px 0 0 155px;
-  }
-
-  .nav-list {
-    gap: 32px;
-    margin: 25px 145px 0 0;
   }
 
   li a {
@@ -480,19 +474,15 @@ ul {
     width: 80%;
     height: 496px;
     margin: 90px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     background: white;
   }
-
 
   .background-img {
     background-image: url(./Images/header-bg-lg.png);
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .background-img {
     background-color: white;
   }
 
@@ -502,10 +492,13 @@ ul {
 
   .head {
     width: 40%;
+    margin: 24px;
   }
 
   .head-img {
     margin: 24px;
+    margin-top: 12px;
+    margin-left: 24px;
   }
 
   .list-1 {
@@ -521,11 +514,6 @@ ul {
     background-size: cover;
   }
 
-  .head {
-    margin-top: 12px;
-    margin-left: 24px;
-  }
-
   .languages {
     margin-top: 12px;
   }
@@ -536,7 +524,6 @@ ul {
     background-image: url(./Images/form-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background: #6070FF;
     width: 100%;
   }
 
@@ -544,7 +531,6 @@ ul {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media screen and (max-width: 580px) {
