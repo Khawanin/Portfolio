@@ -36,6 +36,11 @@ nav {
   font-size: 18px;
   color: #6070ff;
   margin: 10px 0 0 12px;
+  transition: transform 2s;
+}
+
+.logo-link:hover {
+  transform: rotate(360deg);
 }
 
 .main-page {
@@ -93,6 +98,17 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 12px;
+}
+
+.transform {
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.05s;
+}
+
+.transform:hover {
+  transform: scale(1.3);
 }
 
 .portfolio-cards {
@@ -501,6 +517,17 @@ button:disabled {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+  }
+
+  .nav-list:hover {
+    border: 1px solid #6070ffcf;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 0 0 3px 1px #6070ff8f;
   }
 
   .main-page {
