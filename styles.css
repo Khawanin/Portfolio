@@ -430,7 +430,6 @@ button:disabled {
 }
 
 @media (max-width: 767px) {
-
   .js-shape,
   .html-shape,
   .css-shape,
@@ -446,7 +445,6 @@ button:disabled {
 }
 
 @media (min-width: 768px) {
-
   .tonic-int,
   .canopy,
   #change,
@@ -467,7 +465,6 @@ button:disabled {
   .ruby {
     display: flex;
   }
-
 
   .snapshoot-2 {
     order: 2;
@@ -690,7 +687,7 @@ button:disabled {
     height: 120px;
     background-color: #f7f7f9;
     border-radius: 8px;
-    padding: 0px 12px 8px 12px;
+    padding: 0 12px 8px 12px;
   }
 
   .js-txt,
@@ -764,5 +761,4 @@ button:disabled {
     padding: 12px 16px;
     background: #fff;
   }
-
 }
