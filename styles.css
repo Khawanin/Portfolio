@@ -89,6 +89,7 @@ nav {
 }
 
 .social-icons {
+  margin-top: 12px;
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -105,10 +106,10 @@ nav {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 24px;
+  padding: 12px;
 }
 
 .contents {
@@ -265,14 +266,17 @@ nav {
 .resume {
   font-weight: 500;
   font-size: 17px;
-  width: 180px;
-  height: 54px;
+  width: 138;
+  height: 34px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   border-radius: 8px;
-  padding: 20px;
+  padding: 5px;
   color: #396df2;
   border: 1px solid rgb(145, 145, 229);
   cursor: pointer;
   margin-bottom: 40px;
+  background-color: white;
 }
 
 .languages {
@@ -337,7 +341,7 @@ nav {
 }
 
 .form-content {
-  color: #000;
+  color: #ebebff;
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
@@ -430,7 +434,6 @@ button:disabled {
 }
 
 @media (max-width: 767px) {
-
   .js-shape,
   .html-shape,
   .css-shape,
@@ -446,7 +449,6 @@ button:disabled {
 }
 
 @media (min-width: 768px) {
-
   .tonic-int,
   .canopy,
   #change,
