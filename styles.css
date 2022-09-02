@@ -36,6 +36,11 @@ nav {
   font-size: 18px;
   color: #6070ff;
   margin: 10px 0 0 12px;
+  transition: transform 2s;
+}
+
+.logo-link:hover {
+  transform: rotate(360deg);
 }
 
 .main-page {
@@ -445,6 +450,7 @@ button:disabled {
 }
 
 @media (max-width: 767px) {
+
   .js-shape,
   .html-shape,
   .css-shape,
@@ -460,6 +466,7 @@ button:disabled {
 }
 
 @media (min-width: 768px) {
+
   .tonic-int,
   .canopy,
   #change,
