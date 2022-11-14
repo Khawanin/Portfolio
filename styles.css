@@ -498,7 +498,6 @@ button:disabled {
 }
 
 @media (max-width: 767px) {
-
   .js-shape,
   .html-shape,
   .css-shape,
@@ -514,7 +513,6 @@ button:disabled {
 }
 
 @media (min-width: 768px) {
-
   .tonic-int,
   .canopy,
   #change,
