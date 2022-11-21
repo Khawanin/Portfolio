@@ -49,6 +49,7 @@ nav {
 }
 
 .close-icon {
+  position: fixed;
   top: 62px;
   right: 38px;
   z-index: 100;
