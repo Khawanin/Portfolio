@@ -569,7 +569,6 @@ ul.form-content .button1 {
 /* desktop */
 
 @media only screen and (min-width: 992px) {
-
   /* hide mobile */
   .nav-bar-mobile {
     display: none;
@@ -791,10 +790,6 @@ ul.form-content .button1 {
   .tech {
     flex: 1;
   }
-
-  -menu-overlay {
-    display: none;
-  }
 }
 
 /* mobile */
@@ -835,7 +830,7 @@ ul.form-content .button1 {
     color: white;
   }
 
-  .mobile-menu>li {
+  .mobile-menu > li {
     padding-bottom: 30px;
   }
 
@@ -917,7 +912,7 @@ ul.form-content .button1 {
   align-items: center;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .mobile-menu-overlay {
     display: none;
   }
