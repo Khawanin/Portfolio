@@ -29,8 +29,6 @@ body {
 .logo-placeholder {
   width: 100px;
   height: 40px;
-
-  /* border: 1px solid pink; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,8 +39,6 @@ body {
 .logo-div {
   width: 76px;
   height: 20px;
-
-  /* border: 1px solid red; */
   text-decoration: none;
 }
 
@@ -57,9 +53,6 @@ a {
   font-weight: 700;
 }
 
-/* logo text end */
-
-/* hamburger icon start  */
 .bt {
   width: 40px;
   height: 40px;
@@ -152,8 +145,6 @@ h3 {
 
 .social {
   display: flex;
-
-  /* background-color: red; */
   width: 170.17px;
   height: 20px;
   justify-content: space-between;
@@ -218,11 +209,7 @@ h3 {
 /* work-section */
 .works {
   display: grid;
-
-  /* gap: 88px; */
   align-items: center;
-
-  /* margin-top: 114px; */
 }
 
 .project1 {
@@ -238,9 +225,6 @@ h3 {
 
 .project1 img {
   display: block;
-  align-self: center;
-  justify-content: center;
-  margin: auto;
 }
 
 .pri-text {
@@ -363,6 +347,15 @@ button:disabled {
   font-size: 16px;
   line-height: 24px;
 }
+
+.lets-con {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .social-1 {
   display: flex;
 }
@@ -596,8 +589,6 @@ ul.form-content .button1 {
     border: 1px solid red;
     background-color: aliceblue;
     display: flex;
-
-    /* width: 100%; */
   }
 
   .ul-flex {
@@ -645,7 +636,6 @@ ul.form-content .button1 {
   }
 
   .welcome-section {
-    /* height: fit-content; */
     border-radius: 0 0 0 200px;
     min-height: 80vh;
   }
@@ -800,10 +790,6 @@ ul.form-content .button1 {
   .tech {
     flex: 1;
   }
-
-  .mobile-menu-overlay {
-    display: none;
-  }
 }
 
 /* mobile */
@@ -823,8 +809,8 @@ ul.form-content .button1 {
     top: 0;
     left: 0;
     backdrop-filter: blur(6px);
-    mix-blend-mode: multiply;
     background: #6070ff;
+    opacity: 0.9;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -875,19 +861,19 @@ ul.form-content .button1 {
 .popup-modal {
   display: none;
   position: fixed;
-  z-index: 1; /* Sit on top */
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0 0 0); /* Fallback color */
-  background-color: rgb(0 0 0 / 40%); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0 0 0);
+  background-color: rgb(0 0 0 / 40%);
 }
 
 .popup-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
@@ -924,4 +910,14 @@ ul.form-content .button1 {
   gap: 10px;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-overlay {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
 }
