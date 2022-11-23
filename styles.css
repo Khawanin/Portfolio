@@ -274,6 +274,12 @@ h3 {
   line-height: 24px;
 }
 
+form ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .tag-text ul {
   list-style-type: none;
   display: flex;
@@ -474,13 +480,7 @@ hr {
   gap: 18px;
 }
 
-form ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-form ul>li {
+form ul > li {
   list-style-type: none;
 }
 
@@ -524,26 +524,6 @@ form ul>li {
   border: none;
 }
 
-button:hover {
-  background-color: #6070ff;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  color: #fff;
-}
-
-button:active {
-  background-color: #2230d2;
-  transform: translateY(4px);
-  border-radius: 8px;
-  color: #fff;
-}
-
-button:disabled {
-  color: #5e6c84;
-  border: 1px solid #c1c7d0;
-  border-radius: 8px;
-}
-
 .error {
   display: none;
   width: fit-content;
@@ -568,7 +548,6 @@ button:disabled {
 /* desktop */
 
 @media only screen and (min-width: 992px) {
-
   /* hide mobile */
   .nav-bar-mobile {
     display: none;
@@ -792,7 +771,7 @@ button:disabled {
     color: white;
   }
 
-  .mobile-menu>li {
+  .mobile-menu > li {
     padding-bottom: 30px;
   }
 
@@ -908,7 +887,7 @@ button:disabled {
     gap: 27px;
   }
 
-  form ul>li {
+  form ul > li {
     list-style-type: none;
   }
 

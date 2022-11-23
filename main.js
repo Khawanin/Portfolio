@@ -95,7 +95,7 @@ modalCloseBtn.addEventListener('click', () => {
   modal.style.display = 'none';
 });
 
-//form validation
+// form validation
 const contactForm = document.querySelector('.contact-form');
 const emailInput = document.getElementById('email');
 const errorMsg = contactForm.querySelector('.error');
