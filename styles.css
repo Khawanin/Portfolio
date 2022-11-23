@@ -554,7 +554,8 @@ button:disabled {
   background-color: rgba(214, 23, 23, 0.877);
   border-radius: 5px;
   box-sizing: border-box;
-  padding: 0.2em;
+  padding: 0.3em;
+  margin: 0.2em;
 }
 
 .error.active {
