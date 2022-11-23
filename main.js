@@ -94,3 +94,30 @@ links.forEach((node) => node.addEventListener('click', closeOverlay));
 modalCloseBtn.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+
+//form validation
+const contactForm = document.querySelector('.contact-form');
+const emailInput = document.getElementById('email');
+const errorMsg = contactForm.querySelector('.error');
+
+const isValid = (email) => email.toLowerCase() === email;
+
+emailInput.addEventListener('input', () => {
+  if (isValid(emailInput.value)) {
+    errorMsg.textContent = '';
+    errorMsg.className = 'error';
+  } else {
+    errorMsg.textContent = 'Just lowecase letters are allowed in email';
+    errorMsg.className = 'error active';
+  }
+});
+
+contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (isValid(emailInput.value)) {
+    errorMsg.textContent = '';
+    errorMsg.className = 'error';
+    contactForm.submit();
+  }
+});
